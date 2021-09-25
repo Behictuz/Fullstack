@@ -1,0 +1,36 @@
+div{
+    border: 2px solid;
+    /* margin: 100px; */
+    padding: 50px;
+}
+h2{
+    background-color: chocolate;
+    margin-bottom: 0px;
+    padding: 50px;
+}
+#p1{
+    background-color:cyan;
+    /* margin-top: 15px;
+    margin-left: 20px;margin-right: 45px; */
+    width: 250px;
+    /* margin: auto; */
+    /* margin-bottom: 80px; */
+    /* padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 45px; */
+    height: 250px;
+    padding: 50px;
+    box-sizing: border-box;
+    overflow: scroll;
+
+}
+
+#p2{
+    /* margin-top: 20px; */
+    /* background-color: chartreuse; */
+    /* margin: inherit; */
+    /* padding: 100px; */
+    padding: inherit;
+}
+

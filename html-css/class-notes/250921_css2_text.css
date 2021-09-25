@@ -1,0 +1,38 @@
+#par1{
+    color: blue;
+    text-align: center;
+    text-transform: capitalize;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-shadow: 3px 3px red;
+    column-count: 3;
+    column-rule: 3px solid blue;
+}
+#par2{
+    color: red;
+    text-align: right;
+    /* text-transform: uppercase;
+    text-shadow: 2px 3px 9px red; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#par3{
+    color: green;
+    text-align: justify;
+    text-decoration: line-through;
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+
+#par4{
+    color: rgb(120, 155, 140);
+    text-decoration: overline dotted;
+    text-indent: 20px;
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#par5{
+    color: blueviolet;
+    text-decoration: overline wavy;
+    text-indent: 50px;
+    letter-spacing: 2px;
+}
