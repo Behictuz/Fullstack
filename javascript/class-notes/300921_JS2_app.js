@@ -5,16 +5,16 @@ var a=5;
 console.log(a);
 
 
-var alert=5;
-console.log(alert);
-console.log(typeof alert);
+// var alert=5;
+// console.log(alert);
+// console.log(typeof alert);
 
 // var a =10;
 // console.log(" a baslangic : ",a);
 
 // {
 //     var b =5;
-//     console.log("scope icinde b : " ,  b)
+//     console.log("scope icinde b : " ,  b)  b sadece scope icinde ulasilabilir....
 // }
 
 // let a =23;
@@ -25,9 +25,18 @@ console.log(typeof alert);
 
 // const x="Hello";  //Buraya atadigimiz degeri degistiremiyoruz
 // console.log(x);
-// const x ="Hello World"; 
+// const x ="Hello World";  undefined verir
 
 
-var x = 0.1+0.2;
+var b=4;
 
-console.log(+x.toFixed(2));
+console.log(typeof b)
+
+// var x = 0.1+0.2;
+// console.log(+x.toFixed(2));  burda string
+// console.log(+x.toFixed(2)); burda number
+
+// var instructor= 'MArk';
+// console.log(`Merhaba ${instructor}');
+
+console.log(3<5)
