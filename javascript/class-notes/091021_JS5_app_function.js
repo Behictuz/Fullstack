@@ -52,15 +52,27 @@
 // }
 
 
-const studentObject ={
-    firstName: "Yusuf",
-    studentNumber:"C-9333",
-} 
+// const studentObject ={
+//     firstName: "Yusuf",
+//     studentNumber:"C-9333",
+// } 
 
-function sayHi(s){
-    s.firstName= 'Halil';
-    s.studentNumber='C9234';
-    return `Welcome ${s.firstName}`;
-}
+// function sayHi(s){
+//     s.firstName= 'Halil';
+//     s.studentNumber='C9234';
+//     return `Welcome ${s.firstName}`;
+// }
 
-console.log(sayHi(studentObject));
+// console.log(sayHi(studentObject));
+
+// function count(num){
+//     if (num == 10) return; 
+//     console.log(num);
+//     count(++num);    
+//     }
+
+//     count(1);
+
+(function greet2(){
+    console.log('How do you do?');
+})();

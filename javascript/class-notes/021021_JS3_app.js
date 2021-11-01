@@ -73,9 +73,9 @@ console.log("Hello world");
 // console.log(false&&true);
 // console.log(false||true);
 
-// console.log(3&&4);
-// console.log(0&&4);
-// console.log(0||4);
+console.log(3&&4);
+console.log(0&&4);
+console.log(0||4);
 
 //COALESCING OPerator ilk deger null or undefined ise direkt 2. degeri alir
 
