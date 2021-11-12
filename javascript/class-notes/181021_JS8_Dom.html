@@ -28,12 +28,17 @@
   <!-- Main CSS-->
   <link href="181021_JS8_Dom.css" rel="stylesheet" />
   <style>
-    /*.redColorClass {
+    .redColorClass {
             color: red;
-        }
+        } */
         .greenColorClass {
             color: green;
-        }*/
+        }
+
+        .headerLogo{
+          width: 50px;
+          height: 50px;
+        }
   </style>
 </head>
 
@@ -43,8 +48,10 @@
       <div class="card card-4">
         <div class="card-body">
           <center>
-            <img src="img/logo.png" alt="Bank logo" class="nav__logo" id="logo" />
+            <div id="headerId" name="headerName" class="headerClass">Clarusway
+            <!-- <img src="../../html-css/Images/clarusway.png" alt="Bank logo" class="nav__logo" id="logo" /> -->
             <h2 class="title">Registration Page</h2>
+          </div>
           </center>
           <form method="POST" id="registration_form">
             <div class="row row-space">
@@ -113,12 +120,12 @@
               <label class="label">Subject</label>
               <div class="rs-select2 js-select-simple select--no-search">
                 <select name="subject" id="paths">
-                  <option disabled="disabled" selected="selected">
+                  <!-- <option disabled="disabled" selected="selected">
                     Choose your Path
                   </option>
                   <option>FullStack</option>
                   <option>AWS-DevOps</option>
-                  <option>Data Science</option>
+                  <option>Data Science</option> -->
                 </select>
                 <div class="select-dropdown"></div>
               </div>

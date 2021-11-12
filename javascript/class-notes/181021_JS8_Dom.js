@@ -54,6 +54,12 @@ console.log(lastNameidAttr);
 let classProperty= firstNameById.className;
 console.log(classProperty);
 
+// firstNameById.setAttribute("class","redColorClass");
+
+firstNameById.classList.add("redColorClass");
+firstNameById.classList.add("class");
+console.log(firstNameById.classList);
+
 firstNameById.value="Behic";
 lastNameById.value="Tuez";
 
@@ -74,3 +80,47 @@ email.value=`${firstNameById.value.toLowerCase()}.${lastNameById.value.toLowerCa
 
 // innerText , innerHTML , text Content
 
+let headerDiv=document.getElementById("headerId");
+// console.log("headerDiv");
+// console.log(headerDiv.innerHTML);
+// console.log(headerDiv.innerText);
+// console.log(headerDiv.textContent);
+
+// headerDiv.innerHTML=`<img src="img/logo.png" alt="Bank logo" class="nav__logo" id="logo" /> `;
+
+//daha öncekileri silip yazdi
+
+// headerDiv.innerText=`<img src="img/logo.png" alt="Bank logo" class="nav__logo" id="logo" /> `;
+
+// headerDiv.innerHTML +=`<img src="img/logo.png" alt="Bank logo" class="nav__logo" id="logo" /> `;
+
+let logo = document.createElement("img");
+logo.setAttribute("src","../../html-css/Images/clarusway.png");
+console.log(logo);
+// logo.style.width="50px";
+// logo.style.height="50px";
+logo.className="headerLogo";
+// logo.classList.add("headerClass");
+// logo.classList.remove("headerClass");
+console.log(logo.classList);
+headerDiv.appendChild(logo);
+
+let pathList=["FullStack" , "AWS/DEVOPS" , "Data Science" , "CyberSecurity"];
+let pathSelectBox = document.querySelector("#paths");
+console.log(pathSelectBox);
+
+// for (let i = 0; i < pathList.length; i++) {
+//     pathSelectBox.innerHTML += `<option>${pathList[i]}</option>`;
+    
+// }
+// for of
+// for( item of pathList){
+//     pathSelectBox.innerHTML +=`<option>${pathList[item]}</option>`;
+// }
+
+
+//for each
+
+pathList.forEach((element)=>{
+    pathSelectBox.innerHTML += `<option>${pathList[element]}</option>`;
+})
