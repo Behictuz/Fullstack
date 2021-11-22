@@ -52,13 +52,17 @@ navbarItem1.addEventListener("click", ()=>{
 navbarItem1.onclick = () =>{
     alert("Paths clicked by old version");
 }
+// navbarItem2.addEventListener("mouseenter" , ()=> {
+//     navbarItem2.innerText= "over me!";
+// })
+
 navbarItem2.addEventListener("mouseover", () => {
     navbarItem2.innerText = "Over Me!";
-    navbarItem2.style.color = "green";
+    navbarItem2.style.color = "blue";
 });
 
 navbarItem2.addEventListener("mouseout", () =>{
-    navbarItem2.innerText = "Instructors";
+    navbarItem2.innerText = "Instructs";
     navbarItem2.style.color = "#444444";
     navbarItem2.style.fontSize = "1.7rem"
 });
@@ -73,12 +77,14 @@ const randomColor = () => `rgb(${randomNumber()}, ${randomNumber()}, ${randomNum
 
 
 console.log(randomColor());
+console.log(navbarItem1);
 navbarItem3.addEventListener("click", (e)=>{
     e.stopPropagation();
     navbarItem3.style.backgroundColor = randomColor();
 });
 
-navbarItem3.parentElement.addEventListener("click", ()=>{
+navbarItem2.parentElement.addEventListener("click", (e)=>{
+    // e.stopPropagation();
     navbarItem3.parentElement.style.backgroundColor = randomColor();
 });
 
